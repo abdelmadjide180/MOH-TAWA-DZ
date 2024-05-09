@@ -328,11 +328,9 @@ section {
         font-size: 1.4em;
     }
 }
-
 @media (max-width:300px){
     body{
         font-size: 10px;
-     
     }
     @media (max-width: 768px) {
     .main img {
@@ -341,8 +339,6 @@ section {
         display: block; /* جعل الصورة تظهر كبلوك بدلاً من إنلاين */
         width: 50vh;
         margin-top: 7vh;
-    
-        
     }
     .main {
         width: 100%;
