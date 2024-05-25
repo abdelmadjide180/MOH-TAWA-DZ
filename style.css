@@ -244,7 +244,6 @@ section {
 .more-details:hover {
     color: #601cfc;
 }
-
 .contact .icon{
     font-size: 4.5em;
     transition: 0.4s ease;
@@ -314,7 +313,12 @@ section {
         flex-direction: column;
         align-items: center;
     }
+    .main {
+        flex-direction: column; /* تحديد اتجاه العناصر على المحور العمودي */
+    }
+
 }
+
 @media (max-width:641px){
     body{
         font-size: 12px;
@@ -332,16 +336,17 @@ section {
 @media (max-width:300px){
     body{
         font-size: 10px;
+     
     }
-    
-    @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
     .main img {
         margin-left: auto; /* تحديد موقع الصورة إلى اليمين */
         margin-right: auto; /* تحديد موقع الصورة إلى اليسار */
         display: block; /* جعل الصورة تظهر كبلوك بدلاً من إنلاين */
         width: 50vh;
         margin-top: 7vh;
-
+    
         
     }
     .main {
@@ -354,4 +359,5 @@ section {
         background-position: center;
         background-attachment: fixed;
     }
+    
 }
