@@ -344,7 +344,7 @@ section {
         margin-left: auto; /* تحديد موقع الصورة إلى اليمين */
         margin-right: auto; /* تحديد موقع الصورة إلى اليسار */
         display: block; /* جعل الصورة تظهر كبلوك بدلاً من إنلاين */
-        width: 50vh;
+        width: 35vh;
         margin-top: 7vh;
     
         
