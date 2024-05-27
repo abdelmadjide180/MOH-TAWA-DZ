@@ -33,7 +33,7 @@ header {
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
-    padding-left: 65px;
+    padding-left: 30px;
 }
 
 .navigation a:hover{
@@ -53,9 +53,7 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
 }
-
 .main img {
     margin-left: 400px;
     background-color: #0e0aeb;
@@ -347,10 +345,14 @@ section {
         margin-left: auto; /* تحديد موقع الصورة إلى اليمين */
         margin-right: auto; /* تحديد موقع الصورة إلى اليسار */
         display: block; /* جعل الصورة تظهر كبلوك بدلاً من إنلاين */
-        width: 50vh;
+        width: 35vh;
         margin-top: 7vh;
     
         
+    }
+    .logo {
+        font-size: 1.7em;
+        font-weight: 500;
     }
     .main {
         width: 100%;
@@ -362,5 +364,53 @@ section {
         background-position: center;
         background-attachment: fixed;
     }
+    .main h2 {
+        color: rgb(255, 255, 255);
+        font-size: 1.4em;
+        font-weight: 500;
+        padding-left: 20px;
+
+    }
+    
+    .main h2 span {
+        display: inline-block;
+        margin: 15px;
+        margin-top: 7px;
+        color: #1aff12d3;
+        font-size: 3em;
+        font-weight: 600;
+        line-height: 1.1em;
+        padding-right: 30px;
+        text-align: center;
+
+        
+    }
+    
+    .main h3 {
+        
+        color: #fff;
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 1px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .main-btn {
+        margin-left: 70px;
+        margin-bottom: 30px;
+    }
+    .social-icon a {
+        color: #fff;
+        font-size: 3em;
+        padding-right: 50px;
+        margin-left: 20px;
+        
+
+    }
+    .footer-tilte {
+        font-size: 20px;
+    }
+    
     
 }
