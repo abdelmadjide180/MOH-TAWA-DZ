@@ -33,7 +33,7 @@ header {
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
-    padding-left: 30px;
+    padding-left: 65px;
 }
 
 .navigation a:hover{
@@ -53,7 +53,9 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
 }
+
 .main img {
     margin-left: 400px;
     background-color: #0e0aeb;
@@ -244,6 +246,7 @@ section {
 .more-details:hover {
     color: #601cfc;
 }
+
 .contact .icon{
     font-size: 4.5em;
     transition: 0.4s ease;
@@ -344,7 +347,7 @@ section {
         margin-left: auto; /* تحديد موقع الصورة إلى اليمين */
         margin-right: auto; /* تحديد موقع الصورة إلى اليسار */
         display: block; /* جعل الصورة تظهر كبلوك بدلاً من إنلاين */
-        width: 35vh;
+        width: 50vh;
         margin-top: 7vh;
     
         
